@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "babel static-prefix/input.jsx -o static-prefix/output.js && babel static-attr/input.jsx -o static-attr/output.js"
+    "build": "babel static-prefix/input.jsx -o static-prefix/output.js && babel static-attr/input.jsx -o static-attr/output.js && babel static-attr-set/input.jsx -o static-attr-set/output.js"
   },
   "keywords": [],
   "author": "",

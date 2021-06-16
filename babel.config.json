@@ -13,6 +13,10 @@
 		{
 			"include": "./static-attr/input.jsx",
 			"plugins": ["./static-attr/plugin.js"]
+		},
+		{
+			"include": "./static-attr-set/input.jsx",
+			"plugins": ["./static-attr-set/plugin.js"]
 		}
 	]
 }
