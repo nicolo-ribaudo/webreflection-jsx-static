@@ -1,0 +1,18 @@
+{
+	"plugins": [
+		// You can replace this plugin with ["@babel/plugin-syntax-jsx"] to
+		// see the JSX output.
+		["@babel/plugin-transform-react-jsx", { "throwIfNamespace": false }]
+		//["@babel/plugin-syntax-jsx"]
+	],
+	"overrides": [
+		{
+			"include": "./static-prefix/input.jsx",
+			"plugins": ["./static-prefix/plugin.js"]
+		},
+		{
+			"include": "./static-attr/input.jsx",
+			"plugins": ["./static-attr/plugin.js"]
+		}
+	]
+}

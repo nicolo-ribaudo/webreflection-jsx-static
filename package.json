@@ -1,0 +1,19 @@
+{
+  "name": "webreflection-jsx-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel static-prefix/input.jsx -o static-prefix/output.js && babel static-attr/input.jsx -o static-attr/output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.5"
+  }
+}
